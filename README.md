@@ -64,15 +64,7 @@ object-detection/
 └── screenshots/
     └── demo.png               # Project screenshots
 ```
-object-detection/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── yolov10m.pt
-├── static/
-├── outputs/
-└── assets/
+
 # Installtion
  ## Step 1: Clone the Repository
  git clone https://github.com/swamyelurieluri-boop/object-detection.git
