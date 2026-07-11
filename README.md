@@ -42,6 +42,28 @@ windows/linux/macOS
 ---
 
 ## **Project Structure**
+## Project Structure
+
+```text
+object-detection/
+│
+├── app.py                     # Main application file
+├── requirements.txt           # Required Python packages
+├── README.md                  # Project documentation
+│
+├── yolov10m.pt                # Pre-trained YOLOv10 model
+│
+├── assets/
+│   ├── images/                # Sample input images
+│   └── videos/                # Sample input videos
+│
+├── outputs/
+│   ├── detected_images/       # Output images with detections
+│   └── detected_videos/       # Output videos with detections
+│
+└── screenshots/
+    └── demo.png               # Project screenshots
+```
 object-detection/
 │
 ├── app.py
